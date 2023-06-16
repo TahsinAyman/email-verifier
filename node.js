@@ -13,6 +13,6 @@ app.get("/", (request, response) => {
   }
 });
 
-app.listen(8000, "localhost", (error) => {
+app.listen(8000, "0.0.0.0", (error) => {
   console.log("Running");
 });
